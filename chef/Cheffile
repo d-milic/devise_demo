@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+require 'certified'
+
+site 'https://supermarket.getchef.com/api/v1'
+
+cookbook 'apt'
+cookbook 'git'
+cookbook 'nodejs'
+cookbook 'build-essential'
+cookbook 'ruby_build'
+cookbook 'rbenv'
+cookbook 'ruby',
+	:path => 'site-cookbooks/ruby'

@@ -96,3 +96,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+chef/cookbooks
+chef/tmp
+chef/Cheffile.lock
+.vagrant
