@@ -1,0 +1,12 @@
+name 'site'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures site'
+long_description 'Installs/Configures site'
+version '0.1.0'
+
+depends 'rbenv'
+depends 'mysql'
+depends 'mysql2_chef_gem'
+depends 'database'

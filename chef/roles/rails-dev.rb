@@ -8,13 +8,14 @@ run_list(
   'recipe[nodejs]',
   'recipe[ruby_build]',
   'recipe[rbenv]',
-  'recipe[ruby::rbenv]'
-
+  'recipe[site::rbenv]',
+  'recipe[site::mysql]',
+  'recipe[site::mysql2_chef_gem]',
+  'recipe[site::database]'
 )
 
 default_attributes(
-  "build_essential" => {
-    "compiletime" => true
+  'build_essential' => {
+    'compiletime' => true
   }
 )
-

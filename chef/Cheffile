@@ -11,5 +11,8 @@ cookbook 'nodejs'
 cookbook 'build-essential'
 cookbook 'ruby_build'
 cookbook 'rbenv'
-cookbook 'ruby',
-	:path => 'site-cookbooks/ruby'
+cookbook 'site',
+         :path => 'site-cookbooks/site'
+cookbook 'mysql'
+cookbook 'mysql2_chef_gem'
+cookbook 'database'
