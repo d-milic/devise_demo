@@ -16,4 +16,6 @@
 //= require bootstrap/dropdown
 //= require jquery_ujs
 //= require turbolinks
+//= require zxcvbn
+//= require global
 //= require_tree .
